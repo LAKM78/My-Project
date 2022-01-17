@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .outer{
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    .inner{
+        margin: 50px auto;
+        width: 250px;
+        height: 250px;
+        background-image: url(https://api-staging.travel-soft.com/filtering/image/480/https://travelsoft.blob.core.windows.net/travelsoft-pictures/pictures/destination/8825184d-f068-45ca-aee0-5a8854344a8a/072567f7-0406-4b83-901b-f029c1026402.jpg); /* or url(https://www.....) if the 
+    image is online */
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.4);
+    }
+    .inner h1{
+        width: 99%;
+        text-align: center;
+        font-size: 28px;
+        color: rgb(202, 218, 204);
+        border: 2px solid rgb(230, 240, 232);
+        top: 45%;
+    position: absolute;}
+    
