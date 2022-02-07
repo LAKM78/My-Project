@@ -1,0 +1,152 @@
+body {
+  font-size: 100%; /* start value*/
+  margin: auto;  /* centers the page */
+  max-width: 1400px;
+  background-color: #5aaac2;  
+}
+
+header {
+  text-align: center;
+}
+
+.startpage h1 {
+  font-size: 500%; /* Big title on the start page*/
+}
+
+.tagline {
+  font-size: 120%;
+  padding: 0.5em; /* distance to the border*/
+  margin: 1em 0; /* distance downwards but not upwards*/
+}
+ 
+.menu h2 {
+ margin: 0 0 1em;
+ padding: 2em 0;
+ background-color: #101111;  /* very light gray*/
+ text-align: center;
+}
+
+footer {
+ margin-top: 3em;
+ text-align: center;
+ color: rgb(151, 25, 25);
+}
+
+.fas{
+  font-size: 30px;
+}
+
+.startpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.startpage header, .startpage footer {
+  flex: 0 0 100%;
+}
+
+.startpage section {
+  flex: 0 0 22%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgba(49, 47, 47, 0.671);
+}
+
+.menu a:focus
+.menu a:hover {
+  text-decoration: underline;
+  color: #A62F00;
+}
+
+.menu h2 {
+  margin: 0 0 1em;
+  padding: 2em 0;
+  background-color: #320f72;   /* very light grey*/
+  text-align: center;
+  /*add bellow*/
+  box-shadow: inset 0 0 20px #ad0ead;
+  border-radius: 50%;
+}
+
+ .icon{
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+
+del {
+  background: rgb(138, 39, 39);
+  color: rgb(21, 163, 132);
+  text-decoration:none;
+  }
+  del:hover {
+  color: rgb(93, 9, 161);
+  }
+    .logo{
+        margin: 50px auto;
+        width: 250px;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.4);
+    }
+    .inner h1{
+        width: 99%;
+        text-align: center;
+        font-size: 28px;
+        color: rgb(83, 86, 90);}
+ 
+   
+          .inner h1{
+          width: 68%;
+          text-align: center;
+          font-size: 26px;
+          color: rgb(187, 175, 14);
+          top: 10%;
+          position: static;}
+          
+          body {
+          
+          font-size: 100%; /* start value*/
+          margin: auto; /* centers the page */
+          max-width: 1400px; 
+          }
+          
+          
+          
+          header {
+          text-align: center;
+          }
+          
+          .startpage h1 {
+          font-size: 160%; /* Big title on the start page*/
+          }
+          
+          .tagline {
+          font-size: 160%;
+          padding: 0.7em; /* distance to the border*/
+          
+  
+          margin: 2em 0; /* distance downwards but not upwards*/
+          }
+          
+          .menu h2 {
+          margin: 0 0 1em;
+          padding: 3em 0;
+          background-color: #ecd60c; /* very light gray*/
+          text-align: center;
+          }
+          
+          footer {
+          margin-top: 4em;
+          text-align: center;
+          color: rgb(132, 119, 168);
+          
+          background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+          background-color: #706a6a;
+          }
+         
